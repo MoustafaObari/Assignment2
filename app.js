@@ -63,3 +63,8 @@ process.on('uncaughtException', function (err) {
 });
 
 module.exports = app;
+
+const PORT = 3000; // You can change 3000 to any port you prefer
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});

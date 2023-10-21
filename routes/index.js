@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.json({"message": "welcome to the dressstore applicationgi"})
+  res.json({"message": "Welcome to my Market Place Application!  Moustafa Obari. "})
 });
 
 module.exports = router;
